@@ -1,2 +1,2 @@
 # BeanChain
-Team Utog project
+Team Utog Notes App project
