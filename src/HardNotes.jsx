@@ -31,7 +31,7 @@ const App = () => {
     }
   }, []);
 
-  // Save notes to local storage whenever the notes state changes
+  
   useEffect(() => {
     localStorage.setItem('hardNotes', JSON.stringify(notes));
   }, [notes]);
@@ -42,7 +42,7 @@ const App = () => {
     }
 
     if (currentNote.id) {
-      // Update existing note
+      
       const updatedNotes = notes.map(note =>
         note.id === currentNote.id
           ? { 
