@@ -1,16 +1,38 @@
-# React + Vite
+# HardNotes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Description
+This is a simple notes application. It is a single-page application built with React and a modern web development stack. The app allows users to create, edit, and manage notes in a simple and intuitive interface.
 
-Currently, two official plugins are available:
+Technology Stack
+Vite: A fast build tool for web projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React: A JavaScript library for building user interfaces.
 
-## React Compiler
+Tailwind CSS: A utility-first CSS framework for rapid styling.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+npm: The package manager for project dependencies.
 
-## Expanding the ESLint configuration
+Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the Repository
+   Clone the main project repository to your local machine.
+
+git clone [https://github.com/your-username/beanchain.git](https://github.com/your-username/beanchain.git)
+
+Note: You must be a collaborator on the repository or have forked it to clone.
+
+2. Switch to the Correct Branch
+   The notes app is being developed in a dedicated branch. Navigate to the project directory and switch to it.
+
+cd beanchain
+git checkout Notes-App
+
+3. Install Dependencies
+   Once you are on the Notes-App branch, install the project dependencies. This will download all the necessary packages required to run the application.
+
+npm install
+
+4. Run the Application
+   Start the development server. This will open the application in your browser.
+
+npm run dev
