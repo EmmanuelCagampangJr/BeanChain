@@ -57,7 +57,7 @@ const App = () => {
       );
       setNotes(updatedNotes);
     } else {
-      // Add new note
+      
       const newNote = {
         id: Date.now(),
         title: currentNote.title,
