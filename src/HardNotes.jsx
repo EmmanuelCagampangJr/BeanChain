@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+  import React, { useState, useEffect } from 'react';
 
 const App = () => {
   const [notes, setNotes] = useState([]);
@@ -23,7 +23,7 @@ const App = () => {
     urgent: { name: 'Urgent', color: 'text-red-400' }
   };
 
-  // Load notes from local storage on initial render
+  
   useEffect(() => {
     const storedNotes = localStorage.getItem('hardNotes');
     if (storedNotes) {
